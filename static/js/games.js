@@ -16,8 +16,8 @@ const player = { x: 50, y: 100, speed: 2 };
 const keys = {};
 
 const tileImages = {
-    0: 'static/assets/assetes/Grass_11-128x128.png',
-    1: 'static/assets/assetes/Grass_18-128x128.png'
+    0: 'static/assets/assetes/map2/Screenshot 2024-08-25 145032.png',
+    1: 'static/assets/assetes/map2/Screenshot 2024-08-25 134510.png'
 };
 
 const spriteImageObjects = {};
