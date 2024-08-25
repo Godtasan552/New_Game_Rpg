@@ -1,30 +1,30 @@
 const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
 
-const spriteWidth = 40;
-const spriteHeight = 40;
+const spriteWidth = 100;
+const spriteHeight = 100;
 
 const spriteImages = {
-    'idle': 'static/assets/gif/idel.gif',
-    'w': 'static/assets/gif/arrowup.gif',
-    's': 'static/assets/gif/arrowdown.gif',
-    'a': 'static/assets/gif/arrowleft.gif',
-    'd': 'static/assets/gif/arrowright.gif'
+    'idle': 'static/assets/assetes/carater/knight/kinght.gif',
+    'w': 'static/assets/assetes/carater/knight/kinghtrunright.gif',
+    's': 'static/assets/assetes/carater/knight/kinghtrunright.gif',
+    'a': 'static/assets/assetes/carater/knight/runleft.gif',
+    'd': 'static/assets/assetes/carater/knight/kinghtrunright.gif'
 };
 
-const player = { x: 50, y: 100, speed: 2 };
+const player = { x: 0, y: 0, speed: 1 };
 const keys = {};
 
 const tileImages = {
     0: 'static/assets/assetes/map2/Screenshot 2024-08-25 145032.png',
-    1: 'static/assets/assetes/map2/Screenshot 2024-08-25 134510.png'
+    1: 'static/assets/assetes/map2/tree.png'
 };
 
 const spriteImageObjects = {};
 let currentSprite = 'idle';
 let spriteImage = null;
 
-const tileSize = 50;
+const tileSize = 150;
 const camera = { x: 0, y: 0 };
 
 const map = {};
